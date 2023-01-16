@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2ba753a6.css",
+    "main.js": "/static/js/main.ebebda0c.js",
+    "static/js/787.8330e9a5.chunk.js": "/static/js/787.8330e9a5.chunk.js",
+    "static/media/background.png": "/static/media/background.b76b36d53922a4204d30.png",
+    "static/media/bg1.png": "/static/media/bg1.aafa59b897fad1d3c076.png",
+    "static/media/OpenSans-VariableFont_wdth,wght.ttf": "/static/media/OpenSans-VariableFont_wdth,wght.ceb05254cedfa895b512.ttf",
+    "static/media/bg2.png": "/static/media/bg2.8cf4917ed174f80e7aa4.png",
+    "static/media/PlayfairDisplay-VariableFont_wght.ttf": "/static/media/PlayfairDisplay-VariableFont_wght.3f7c141215e6d22d0f1e.ttf",
+    "static/media/Caramel-Regular.ttf": "/static/media/Caramel-Regular.c5c25e4a4968421bd933.ttf",
+    "static/media/purpleFlower.png": "/static/media/purpleFlower.a7fab780b516d798d268.png",
+    "static/media/canhCay.png": "/static/media/canhCay.ce5ae6d7d0b67aa4eac9.png",
+    "static/media/lily.png": "/static/media/lily.1b12061b9bd1b343be82.png",
+    "static/media/PublicSans-VariableFont_wght.ttf": "/static/media/PublicSans-VariableFont_wght.8c2bc51f718c881c17f1.ttf",
+    "static/media/choiCay.png": "/static/media/choiCay.c226787e7a57e9891a43.png",
+    "static/media/virus.png": "/static/media/virus.45dbf76c2442fa4cfbad.png",
+    "static/media/img.png": "/static/media/img.ad0ae99293c6034eaed7.png",
+    "static/media/spray2.png": "/static/media/spray2.ad0ae99293c6034eaed7.png",
+    "static/media/CORAL-BOTTLE-02.png": "/static/media/CORAL-BOTTLE-02.510290eff6de68706216.png",
+    "static/media/CORAL-BOTTLE-01.png": "/static/media/CORAL-BOTTLE-01.5c012eb72eb7accddbdd.png",
+    "static/media/wash-your-hands.png": "/static/media/wash-your-hands.cbd6a91630756fad4fb0.png",
+    "static/media/foggy.png": "/static/media/foggy.83364586b68ff31b2c8c.png",
+    "static/media/essential-oil.png": "/static/media/essential-oil.11ba8dd7ed63a7b01205.png",
+    "static/media/natural.png": "/static/media/natural.9866bd956d1ddbbef06e.png",
+    "static/media/cleaning-spray.png": "/static/media/cleaning-spray.1b7ceaee3fcf0b05f1d7.png",
+    "static/media/australia.png": "/static/media/australia.6bf0c35af433f6e766c7.png",
+    "static/media/hand-sanitizer.png": "/static/media/hand-sanitizer.0af04c63b9a47a8cf0be.png",
+    "static/media/dropper.png": "/static/media/dropper.8df00c141374c6da0468.png",
+    "index.html": "/index.html",
+    "static/media/wave2.svg": "/static/media/wave2.62f13ed94086729080427f49221949d5.svg",
+    "static/media/wave.svg": "/static/media/wave.6951d8c5f40562fd20b973bc14a6d331.svg",
+    "main.2ba753a6.css.map": "/static/css/main.2ba753a6.css.map",
+    "main.ebebda0c.js.map": "/static/js/main.ebebda0c.js.map",
+    "787.8330e9a5.chunk.js.map": "/static/js/787.8330e9a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ba753a6.css",
+    "static/js/main.ebebda0c.js"
+  ]
+}
