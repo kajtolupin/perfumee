@@ -1,0 +1,64 @@
+.main {
+    background-color: #AFDFDB
+}
+
+.contactText {
+    position: relative;
+    padding: 25px 85px;
+}
+
+.text {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.textEdge {
+    position: absolute;
+    right: 85px;
+    top: 0;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.contactSheet {
+    padding: 0;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 22px;
+    margin: 8px;
+    border: none;
+}
+
+#selection {
+    width: 100%;
+    color: #6c6c6c;
+}
+
+.btn {
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    
+}
+
+
+
+@media (max-width: 1024px) {
+    .contactText {
+        padding: 30px 0;
+    }
+    
+    .text {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .textEdge {
+        right: 50%;
+        transform: translateX(50%);
+    }
+}

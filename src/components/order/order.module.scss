@@ -1,0 +1,176 @@
+.main {
+    background-color: #F3A2A0;
+    z-index: 5;
+    position: relative;
+}
+
+.item {
+    padding-bottom: 30px;
+}
+
+.bottle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    width: 195px;
+    z-index: 10;
+    position: relative;
+}
+
+.highlight {
+    background-color: #AFDFDB;
+    border-radius: 50%;
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    top: 25%;
+}
+
+// .highlightColor {
+//     background-color: #AFDFDB;
+//     border-radius: 50%;
+//     width: 100%;
+//     height: calc(100% - 35px);
+// }
+
+
+.name {
+    font-family: heading;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.quantity {
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+
+.itemInput {
+    padding: 12px;
+    width: 108px;
+    border: none;
+    margin-left: 15px;
+}
+
+
+
+.payOrder {
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+
+.payRow {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 36px;
+    padding: 20px 0;
+    border-bottom: 2px solid #f3f3f3;
+    font-size: 17px;
+
+}
+
+.price {
+    color: #F3A2A0;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.payRow:last-child {
+    border: none;
+}
+
+.total {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 36px ;
+    border-bottom: 2px solid #f3f3f3;
+    font-size: 17px;
+}
+
+.btn {
+    width: 100%;
+    padding: 18px;
+    margin-top: 30px;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #F3A2A0;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color: #F3A2A0;
+    background-color: #fff;
+}
+
+.waveWrap {
+    margin: -1px 0;
+}
+
+.wave {
+    min-height: 100px;
+    min-width: 630px;
+}
+
+
+
+
+
+@media (max-width: 1240px) {
+    .name {
+        height: 88px;
+    }
+}
+
+@media (max-width:740px) {
+    .img {
+        width: 120px;
+    }
+
+    .highlight {
+        width: 140px;
+        height: 140px;
+        top: 25%;
+    }
+
+    .name {
+        font-size: 19px;
+    }
+
+    .quantity {
+        margin-top: 10px;
+    }
+
+    .itemInput {
+        margin-top: 10px;
+        margin-left: 12px;
+    }
+
+
+    .payRow {
+        margin: 0 36px;
+        padding: 10px 0;
+        font-size: 16px;
+    }
+
+    .total {
+        padding: 10px 32px ;
+        font-size: 16px;
+    }
+    
+    .price {
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+}

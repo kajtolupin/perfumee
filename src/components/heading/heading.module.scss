@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+    padding: 20px 60px;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+@font-face {
+    font-family: Caramel;
+    src: url(./Caramel/Caramel-Regular.ttf);
+}
+
+@font-face {
+    font-family: Sans;
+    src: url(./Public_Sans/PublicSans-VariableFont_wght.ttf);
+}
+
+h1 {
+    font-family: Caramel;
+    font-size: 80px;
+    align-self: flex-end;
+    margin: 0;
+}
+
+
+p {
+    align-self: center;
+    font-family: Sans;
+    font-size: 15px;
+}
+
+@media (max-width:450px) {
+    p {
+        display: none;
+    }
+
+    .main {
+        justify-content: center;
+    }
+}

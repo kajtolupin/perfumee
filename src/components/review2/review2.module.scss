@@ -1,0 +1,13 @@
+.main {
+    background-color: #D0C1ED;
+}
+
+.img {
+    transform: translateY(-46px);
+}
+
+@media (max-width: 740px) {
+    .img {
+        width: 256px;
+    }
+}

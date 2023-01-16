@@ -1,0 +1,139 @@
+.main {
+    background-color: #f6f6f6;
+    min-height: 800px;
+    padding: 150px 0;
+    z-index: 9;
+    position: relative;
+}
+
+.introRow {
+    flex-direction: column-reverse;
+}
+
+.content {
+    margin: auto;
+    z-index: 8;
+}
+
+.btn {
+
+}
+
+.art {
+    min-height: 100px;
+    display: flex;
+    position: relative;
+    z-index: 8;
+}
+
+.bottle1,
+.bottle2 {
+    width: 230px;
+}
+
+.bottle2 {
+    transform: translate(-80px, -20px);
+}
+
+.tem {
+    position: absolute;
+    top: -3px;
+    left: 282px;
+    background-color: #f3a2a0;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.temText {
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    font-size: 12px;
+    color: #fff;
+}
+
+.temText span {
+    position: absolute;
+    left: 50%;
+    transform-origin: 0 55px;
+}
+
+.cay {
+    position: absolute;
+}
+
+.tim {
+    right: 0;
+}
+
+.choi {
+    left: 0;
+    bottom: 10px;
+    width: 150px;
+    display: none;
+}
+
+.canh {
+    top: 0;
+    left: 0;
+    width: 450px;
+    z-index: -0;
+}
+
+@media (min-width: 1024px) and (max-width: 1239px)  {
+    .choi {
+        display: block;
+    }
+
+    .introRow {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1113px) {
+    .choi {
+        display: block;
+
+    }
+
+    .introRow {
+        flex-direction: row;
+    }
+}
+
+
+@media (max-width: 740px) {
+    .main {
+        padding: 150px 45px;
+    }
+    
+    .btn {
+        width: 100%;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .art {
+        margin-left: 70px;
+    }
+}
+
+@media (max-width:740px) {
+
+    .tem {
+        display: none;
+    }
+}
+
+@media (max-width:414px) {
+    .bottle1,.bottle2 {
+        width: 164px;
+    }
+    .canh {
+        width: 250px;
+    }
+}

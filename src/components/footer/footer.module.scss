@@ -1,0 +1,29 @@
+.main {
+    background-color: #F2F2F2;
+    padding-top: 150px;
+}
+
+.heading {
+    padding-top: 10px;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.socialItem {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #585858;
+}
+
+.img {
+    background-image: url('./img/lily.png');
+    padding-top: 240px;
+}
+
+@media (max-width: 768px) {
+    .socialItem {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 14px;
+    }
+}

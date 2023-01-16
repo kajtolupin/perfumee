@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f6f6f6;
+}
+
+.z-10 {
+    z-index: 10;
+}
+
+.z-4 {
+    z-index: 4;
+}
+
+.z-5 {
+    z-index: 5;
+}
+
+.z-3 {
+    z-index: 3;
+}
+
+.max-w-none {
+    max-width: none;
+}
+
+.wave-wrap {
+    height: 32px;
+    position: relative;
+}
+
+.wave {
+    overflow: hidden;
+    width: 100%;
+    background-size: cover;
+    min-height: 32px;
+}
+
+
+
+.notSetHeight {
+    height: auto;
+}
+
+.btn {
+    margin-top: 30px;
+    padding: 15px 32px;
+    background: #F3A2A0;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #ee7f7d;
+}
+
+.center {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.float {
+    z-index: 10;
+}
+
+.relative {
+    position: relative;
+}
+
+
+@font-face {
+    font-family: Heading;
+    src: url(./fonts/heading-font//PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Para;
+    src: url(./fonts/Main-font/MainPara/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+/* @media (max-width: 740px) {
+    body {
+        margin: 0 45px;
+    }
+} */
+
+.heading {
+    font-family: Heading;
+    font-size: 51px;
+}
+
+.front-heading {
+    font-size: 22px;
+}
+
+
+.text {
+    font-family: Para;
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+.flex {
+    display: flex;
+}
+
+/* .item {
+
+} */
+
+.itemImg {
+    width: 80px;
+}
+
+/* .itemText {
+
+} */
+
+.pt30 {
+    padding-top: 30px;
+}
+
+.pt60 {
+    padding-top: 60px;
+}
+
+@media (max-width: 1023px) {
+    .reverse {
+        flex-direction: column-reverse;
+    }
+    .main {
+        padding-bottom: 45px;
+    }
+}
+
+@media (max-width: 740px) {
+    .main {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+    
+    .heading {
+        font-size: 35px;
+    }
+}
+
+/* .test {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+} */
+
+.form-message {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.valid .form-input{
+    border-color: red;
+}
+
+.valid .form-message {
+    color: red;
+}
